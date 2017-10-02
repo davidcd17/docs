@@ -54,3 +54,5 @@ Finalmente, hemos preparado el array _$params_ y llamado el servicio _WSCreateUs
 El parámetro _original_user_id_name_ es lo que permite hacer el enlace entre Chamilo y nuestro servicio externo. Basta con darle un nombre constante que represente nuestro sistema y el hecho que se trata de un ID de usuario (por ejemplo _joomla_uid_ sería un buen nombre para una conexión con un sistema Joomla, si es que este es el único sistema Joomla con el cual lo conectamos).Luego podemos darle el valor del ID del usuario en nuestro sistema **externo** dentro del parámetro _original_user_id_value_. Con este par de valores, podrá volver a editar o borrar cualquier usuario anteriormente creado via el servicio web : Chamilo mantendrá una relación entre el mismo y su sistema externo gracias al almacenamiento de estos datos.
 
 La misma lógica funciona con los cursos y las sesiones: mantenemos, **dentro** de la base de datos de Chamilo, el dato del ID externo de esta entidad.
+
+Aquí añadimos lo que consideremos oportuno para el archivo.
